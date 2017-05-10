@@ -10,13 +10,9 @@
 			{
 				"subject": "html5应用url传参说明",
 				"mdlink": ""
-			},
-			{
-				"subject": "完成一个sprite应用",
-				"mdlink": "spriteapp"
 			}
 		 ]
-        }
+        },
 	{
 		"group": "配置接口",
 		"contains": [
