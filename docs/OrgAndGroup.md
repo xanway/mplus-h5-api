@@ -546,7 +546,7 @@ mplus.getUserGroupFullId({
   <tr>
     <th>groupFullId</th>
     <th>groupFullId以@分隔，从上到下，最底层为直属部门id，
-    如&ltgroupfullid>b1f00858-0b99-1212-910d-c75ssa7eb16f@ec5    ea37e-e5fb-4cfc-1212-00d24d750d2b@19494f45-46af-1212-a329-39b886ggc6a3@10aaa8c3-2437-1122-8e01-baffce320927&lt/groupfullid></th>
+    如&ltgroupfullid&gtb1f00858-0b99-1212-910d-c75ssa7eb16f@ec5    ea37e-e5fb-4cfc-1212-00d24d750d2b@19494f45-46af-1212-a329-39b886ggc6a3@10aaa8c3-2437-1122-8e01-baffce320927&lt/groupfullid&gt</th>
   </tr>
   <tr>
     <th>res.errMsg</th>
