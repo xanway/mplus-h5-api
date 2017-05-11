@@ -21,7 +21,7 @@
 				"mdlink": "ConfigSetting"
 			}
 		 ]
-        }
+        },
 	{
 		"group": “NativeObj接口”,
 		"contains": [
