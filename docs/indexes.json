@@ -52,9 +52,23 @@
                   },
                   {
                   "subject": "下载图片接口",
-                  "mdlink": ""
+                  "mdlink": "downloadImage"
+                  }
+                  ]
+     },
+     {
+     "group": "联系人接口",
+     "contains": [
+                  {
+                  "subject": "机构和群组获取接口",
+                  "mdlink": "OrgAndGroup"
+                  },
+                  {
+                  "subject": "界面调用",
+                  "mdlink": "Base64Image"
                   }
                   ]
      }
+
     ]
 }
