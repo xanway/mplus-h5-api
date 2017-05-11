@@ -68,6 +68,19 @@
                   "mdlink": "OrgAndGroupView"
                   }
                   ]
+     },
+     {
+     "group": "云盘",
+     "contains": [
+                  {
+                  "subject": "数据获取",
+                  "mdlink": "cloudDisk"
+                  },
+                  {
+                  "subject": "界面调用",
+                  "mdlink": "cloudDiskView"
+                  }
+                  ]
      }
 
     ]
