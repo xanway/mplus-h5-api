@@ -23,13 +23,38 @@
 		 ]
         },
 	{
-		"group": "NativeObj接口",
+		"group": "NativeObj",
 		"contains": [
 			{
 				"subject": "NativeObj接口",
 				"mdlink": "NativeObj"
 			}
 		 ]
-        }
+        },
+     {
+     "group": "图片接口",
+     "contains": [
+                  {
+                  "subject": "拍照或者从相册选择图片接口",
+                  "mdlink": "chooseImage"
+                  },
+                  {
+                  "subject": "获取base64编码图片接口",
+                  "mdlink": ""
+                  },
+                  {
+                  "subject": "预览图片接口",
+                  "mdlink": ""
+                  },
+                  {
+                  "subject": "上传图片接口",
+                  "mdlink": ""
+                  },
+                  {
+                  "subject": "下载图片接口",
+                  "mdlink": ""
+                  }
+                  ]
+     }
     ]
 }
