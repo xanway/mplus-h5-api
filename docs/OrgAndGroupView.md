@@ -104,9 +104,9 @@ mplus.selectMembersFromContact({
 
 ```JavaScript
 mplus.openMemberDetailUI({
-    memberId: '', // 成员id
+    memberId: '', 
     success: function (res) {
-        //成功回调
+       
     },
 	fail: function (res) {
         alert(res.errMsg);
@@ -120,6 +120,10 @@ mplus.openMemberDetailUI({
   <tr>
     <th>参数</th>
     <th>描述</th>
+  </tr>
+  <tr>
+    <th>memberId</th>
+    <th>成员id</th>
   </tr>
   <tr>
     <th>res.errMsg</th>
