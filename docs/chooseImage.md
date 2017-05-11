@@ -16,7 +16,7 @@
 
 ```
 
-<table border="1">
+<table>
   <tr>
     <th>参数</th>
     <th>描述</th>

@@ -4,7 +4,7 @@
 
 NativeObj对象提供打开原生应用、ExMobi应用和html5应用操作
 
-<table border="1">
+<table>
   <tr>
     <th>方法名</th>
     <th>描述</th>
@@ -47,6 +47,7 @@ NativeObj对象提供打开原生应用、ExMobi应用和html5应用操作
         }
 ```
 </td>
+  </tr>
   <tr>
     <th>void openApp(String type, String appId,String params)</th>
     <th>启动指定应用
@@ -76,6 +77,5 @@ NativeObj对象提供打开原生应用、ExMobi应用和html5应用操作
 ```
 
 </th>
-  </tr>
   </tr>
 </table>
