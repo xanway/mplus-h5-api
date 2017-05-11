@@ -22,5 +22,14 @@
 			}
 		 ]
         }
+	{
+		"group": “NativeObj接口”,
+		"contains": [
+			{
+				"subject": "NativeObj接口",
+				"mdlink": "NativeObj"
+			}
+		 ]
+        }
     ]
 }
