@@ -18,7 +18,7 @@
 		"contains": [
 			{
 				"subject": "Config配置接口",
-				"mdlink": ""
+				"mdlink": "ConfigSetting"
 			}
 		 ]
         }
