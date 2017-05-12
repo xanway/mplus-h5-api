@@ -133,7 +133,17 @@
                   }
                   
                   ]
+     },
+     {
+     "group": "圈子",
+     "contains": [
+                  {
+                  "subject": "圈子数据操作接口",
+                  "mdlink": "CircleData"
+                  }
+                  ]
      }
+
 
     ]
 }
