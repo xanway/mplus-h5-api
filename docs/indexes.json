@@ -160,6 +160,16 @@
                   "mdlink": "IMChat"
                   }
                   ]
+     },
+     {
+     "group": "弹窗",
+     "contains": [
+                  {
+                  "subject": "弹窗接口",
+                  "mdlink": "AlertShow"
+                  }
+                  ]
+
      }
     ]
 }
