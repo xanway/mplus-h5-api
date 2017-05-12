@@ -180,6 +180,47 @@
                   }
                   ]
      
+     },
+     {
+     "group": "分享",
+     "contains": [
+                  {
+                  "subject": "分享接口",
+                  "mdlink": "Share"
+                  }
+                  ]
+     
+     },
+     {
+     "group": "邮件",
+     "contains": [
+                  {
+                  "subject": "启动系统邮件",
+                  "mdlink": "Email"
+                  }
+                  ]
+     
+     },
+     {
+     "group": "浏览器",
+     "contains": [
+                  {
+                  "subject": "浏览器接口",
+                  "mdlink": "Browser"
+                  }
+                  ]
+     
+     },
+     {
+     "group": "其他",
+     "contains": [
+                  {
+                  "subject": "其他接口",
+                  "mdlink": "Other"
+                  }
+                  ]
+     
      }
+             
     ]
 }
