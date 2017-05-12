@@ -170,6 +170,16 @@
                   }
                   ]
 
+     },
+     {
+     "group": "地理位置",
+     "contains": [
+                  {
+                  "subject": "地理位置接口",
+                  "mdlink": "Location"
+                  }
+                  ]
+     
      }
     ]
 }
