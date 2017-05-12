@@ -151,8 +151,15 @@
                   "mdlink": "NavigationSetting"
                   }
                   ]
+     },
+     {
+     "group": "IM聊天",
+     "contains": [
+                  {
+                  "subject": "IM聊天接口",
+                  "mdlink": "IMChat"
+                  }
+                  ]
      }
-
-
     ]
 }
