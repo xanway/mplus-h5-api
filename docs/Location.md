@@ -117,9 +117,9 @@ mplus.getLocation({
         var address = res.address; 
         var province = res.province; 
         var city = res.city;
-       var district = res.district;
+        var district = res.district;
         var street= res.street;
-       var streetNumber = res.streetNumber;
+        var streetNumber = res.streetNumber;
     },
 	fail: function (res) {
         alert(res.errMsg);
