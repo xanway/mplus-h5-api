@@ -142,6 +142,15 @@
                   "mdlink": "CircleData"
                   }
                   ]
+     },
+     {
+     "group": "导航栏",
+     "contains": [
+                  {
+                  "subject": "导航栏(原标题栏)操作",
+                  "mdlink": "NavigationSetting"
+                  }
+                  ]
      }
 
 
