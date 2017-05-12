@@ -96,14 +96,44 @@
                   ]
      },
      {
-        "group": "更多界面操作",
-        "contains": [
-              {
-              "subject": "跳转至用户信息界面",
-              "mdlink": "goToUserInfo"
-              }
-              ]
-        }
+    "group": "更多界面操作",
+    "contains": [
+                {
+                "subject": "跳转至用户信息界面",
+                "mdlink": "goToUserInfo"
+                }
+                ]
+     },
+     {
+     "group": "设备接口",
+     "contains": [
+                  {
+                  "subject": "设备信息",
+                  "mdlink": "DeviceInfo"
+                  },
+                  {
+                  "subject": "扫一扫",
+                  "mdlink": "ScanCode"
+                  },
+                  {
+                  "subject": "摇一摇",
+                  "mdlink": "Shake"
+                  },
+                  {
+                  "subject": "返回键控制",
+                  "mdlink": "BackBtn"
+                  },
+                  {
+                  "subject": "拨打电话",
+                  "mdlink": "phoneNum"
+                  },
+                  {
+                  "subject": "振动(5.1.0)",
+                  "mdlink": "vibrate"
+                  }
+                  
+                  ]
+     }
 
     ]
 }
