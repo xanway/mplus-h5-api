@@ -94,7 +94,16 @@
                   "mdlink": "cloudDiskView"
                   }
                   ]
-     }
+     },
+     {
+        "group": "更多界面操作",
+        "contains": [
+              {
+              "subject": "跳转至用户信息界面",
+              "mdlink": "goToUserInfo"
+              }
+              ]
+        }
 
     ]
 }
