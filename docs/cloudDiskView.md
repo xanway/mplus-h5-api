@@ -27,7 +27,7 @@ mplus.selectDocsFromCloudDisk({
 });
 
 ```
-### 参数说明：
+### 返回说明：
 
 <table>
   <tr>
@@ -39,7 +39,7 @@ mplus.selectDocsFromCloudDisk({
     <th>已选文档列表</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -118,6 +118,19 @@ mplus.filePreviewFromCloudDisk({
   </tr>
   <tr>
     <th>res.errMsg</th>
+    <th>错误提示。</th>
+  </tr>
+</table>
+
+### 返回说明：
+
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>

@@ -44,3 +44,17 @@ mplus.saveToCloudDisk({
   </tr>
 </table>
 
+### 返回说明：
+
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
+    <th>错误提示。</th>
+  </tr>
+</table>
+
+

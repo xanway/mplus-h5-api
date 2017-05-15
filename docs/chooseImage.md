@@ -40,3 +40,19 @@ mplus.chooseImage({
   </tr>
   </table>
   
+### 返回说明：
+
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>localIds</th>
+    <th>返回选定照片的本地ID列表，localId作为上传图片接口使用</th>
+  </tr>
+    <tr>
+    <th>errMsg</th>
+    <th>错误提示</th>
+  </tr>
+  </table>

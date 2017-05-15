@@ -40,12 +40,21 @@ mplus.uploadImage({
     <th>pwidth</th>
     <th>压缩之后的图片宽度，可不填。如果设置此值，必须同时设置maxLength。</th>
   </tr>
+</table>
+
+### 返回说明：
+
+<table>
   <tr>
-    <th>res.serverId</th>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>serverId</th>
     <th>返回图片的服务器端ID。</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>上传失败的错误提示。</th>
   </tr>
 </table>

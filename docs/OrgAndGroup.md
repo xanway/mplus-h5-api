@@ -14,7 +14,7 @@ mplus.getOrgName({
 });
 
 ```
-### 参数说明：
+### 返回说明：
 
 <table>
   <tr>
@@ -22,11 +22,11 @@ mplus.getOrgName({
     <th>描述</th>
   </tr>
   <tr>
-    <th>res.orgName</th>
+    <th>orgName</th>
     <th>返回机构名称</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -62,12 +62,20 @@ mplus.getOrgGroups({
     <th>groupId</th>
     <th>指定的部门id，根节点为-1</th>
   </tr>
+</table>
+
+### 返回说明：
+<table>
   <tr>
-    <th>res.orgGroups</th>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>orgGroups</th>
     <th>返回子部门数组</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -120,12 +128,20 @@ mplus.getOrgMembers({
     <th>groupId</th>
     <th>指定的部门id，根节点为-1</th>
   </tr>
+</table>
+
+### 返回说明：
+<table>
   <tr>
-    <th>res.orgMembers</th>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>orgMembers</th>
     <th>返回部门成员数组</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -199,6 +215,26 @@ mplus.getOrgGroupsAndMembers({
   </tr>
   <tr>
     <th>res.errMsg</th>
+    <th>错误提示。</th>
+  </tr>
+</table>
+
+### 返回说明：
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>orgGroups</th>
+    <th>返回子部门数组</th>
+  </tr>
+  <tr>
+    <th>orgMembers</th>
+    <th>返回部门成员数组</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -297,6 +333,22 @@ mplus.searchOrgMembers({
   </tr>
 </table>
 
+### 返回说明：
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>orgMembers</th>
+    <th>返回部门成员数组。</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
+    <th>错误提示。</th>
+  </tr>
+</table>
+
 ###### orgMembers说明：
 
 <table>
@@ -363,6 +415,14 @@ mplus.getMemberDetails({
     <th>memberId</th>
     <th>成员id</th>
   </tr>
+</table>
+
+### 返回说明：
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
   <tr>
     <th>phones</th>
     <th>成员电话号码数组</th>
@@ -376,7 +436,7 @@ mplus.getMemberDetails({
     <th>昵称（5.1.0版本添加）</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -400,7 +460,7 @@ fail: function (res) {
 });
 
 ```
-### 参数说明：
+### 返回说明：
 <table>
   <tr>
     <th>参数</th>
@@ -411,7 +471,7 @@ fail: function (res) {
     <th>返回用户群组数组</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -462,12 +522,20 @@ mplus.getUserGroupMembers({
     <th>groupId</th>
     <th>指定的群组id</th>
   </tr>
+</table>
+
+### 参数说明：
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
   <tr>
     <th>userGroupMembers</th>
     <th>返回群组成员数组</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -506,7 +574,7 @@ mplus.getUserGroupId({
 
 ```
 
-### 参数说明：
+### 返回说明：
 <table>
   <tr>
     <th>参数</th>
@@ -537,7 +605,7 @@ mplus.getUserGroupFullId({
 
 ```
 
-### 参数说明：
+### 返回说明：
 <table>
   <tr>
     <th>参数</th>
@@ -568,7 +636,7 @@ mplus.getUserName({
 });
 
 ```
-### 参数说明：
+### 返回说明：
 <table>
   <tr>
     <th>参数</th>

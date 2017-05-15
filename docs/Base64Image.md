@@ -38,12 +38,25 @@ mplus.getBase64ImageFromId({
     <th>pwidth</th>
     <th>压缩之后的图片宽度，可不填。如果设置此值，必须同时设置maxLength。</th>
   </tr>
+ </table>
+ 
+ ### 参数说明：
+
+<table>
   <tr>
-    <th>res.base64Image</th>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>base64Image</th>
     <th>返回图片的base64编码数据，在img标签src属性填充格式：data:image/png;base64,base64编码的png图片数据  data:image/jpeg;base64,base64编码的jpeg图片数据</th>
   </tr>
   <tr>
-    <th>res.base64ImageType</th>
+    <th>base64ImageType</th>
     <th>图片类型，返回类型：”png”,”jpeg”</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
+    <th>错误提示</th>
   </tr>
  </table>

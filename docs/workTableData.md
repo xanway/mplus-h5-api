@@ -35,12 +35,21 @@ mplus.getInstalledAppList({
     <th>apptype</th>
     <th>应用类型: 0：原生应用；1：ExMobi应用；2：html5应用；3：全部</th>
   </tr>
+</table>
+
+### 返回说明：
+
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
     <tr>
     <th>installedAppArr</th>
     <th>返回已安装应用列表</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>

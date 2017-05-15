@@ -37,6 +37,19 @@ mplus.openAppDetail({
   </tr>
 </table>
 
+### 返回说明：
+
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
+    <th>错误提示。</th>
+  </tr>
+</table>
+
 <h2 id="cid_0">工作台页面唤起(5.1.0)</h2>
 
 ```JavaScript
@@ -52,14 +65,14 @@ mplus.openWorktableUI({
 
 ```
 
-### 参数说明：
+### 返回说明：
 
 <table>
   <tr>
     <th>参数</th>
     <th>描述</th>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>

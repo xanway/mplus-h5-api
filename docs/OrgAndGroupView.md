@@ -14,7 +14,7 @@ mplus.openContactUI({
 });
 
 ```
-### 参数说明：
+### 返回说明：
 
 <table>
   <tr>
@@ -22,7 +22,7 @@ mplus.openContactUI({
     <th>描述</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -58,15 +58,24 @@ mplus.selectMembersFromContact({
     <th>描述</th>
   </tr>
   <tr>
-    <th>id</th>
-    <th>返回成员名id(member_id)</th>
+    <th>maxCount</th>
+    <th>可选择人数上限，默认100，最大值500（此参数只对新联系人版本生效）</th>
+  </tr>
+</table>
+
+### 返回说明：
+
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
   </tr>
   <tr>
-    <th>loginId</th>
-    <th>返回loginId</th>
+    <th>members</th>
+    <th>返回成员名列表</th>
   </tr>
   <tr>
-    <th>res.errMsg</th>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
@@ -125,8 +134,17 @@ mplus.openMemberDetailUI({
     <th>memberId</th>
     <th>成员id</th>
   </tr>
+</table>
+
+### 返回说明：
+
+<table>
   <tr>
-    <th>res.errMsg</th>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>errMsg</th>
     <th>错误提示。</th>
   </tr>
 </table>
