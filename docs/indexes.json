@@ -140,6 +140,10 @@
                   {
                   "subject": "圈子数据操作接口",
                   "mdlink": "CircleData"
+                  },
+                  {
+                  "subject": "圈子界面操作接口",
+                  "mdlink": "CircleUI"
                   }
                   ]
      },
