@@ -318,14 +318,13 @@ mplus.showGroupMessage({
 
 ```JavaScript
 
-//烽火IM和容联云通用
 mplus.shareIMUI({
-    title: '',//分享标题
-    desc: '',//分享描述
-    appname: '',//分享应用名
-    appid: '',//分享应用id
-    imgUrl: '',//分享图标，见imgUrl链接格式定义
-    link: '',//分享链接，见link链接格式
+    title: '',
+    desc: '',
+    appname: '',
+    appid: '',
+    imgUrl: '',
+    link: '',
     success: function (res) {
         
     },
