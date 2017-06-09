@@ -17,7 +17,7 @@
 		"group": "配置接口",
 		"contains": [
 			{
-				"subject": "Config配置接口",
+				"subject": "配置接口",
 				"mdlink": "ConfigSetting"
 			}
 		 ]
