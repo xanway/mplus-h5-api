@@ -88,12 +88,12 @@ mplus.selectMembersFromContact({
     <th>描述</th>
   </tr>
   <tr>
-    <th>maxCount</th>
-    <th>可选择人数上限，默认100，最大值500（此参数只对新联系人版本生效）</th>
+    <th>id</th>
+    <th>返回成员名id(member_id)</th>
   </tr>
   <tr>
-    <th>members</th>
-    <th>返回成员数组</th>
+    <th>loginId</th>
+    <th>返回loginId</th>
   </tr>
   <tr>
     <th>name</th>

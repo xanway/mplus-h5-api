@@ -8,7 +8,7 @@ mplus.openAppDetail({
     appid: '', 
     apptype: '',
     success: function (res) { 
-           // 发送成功回调
+          
         },
     fail: function (res) {
         alert(res.errMsg);
@@ -31,10 +31,6 @@ mplus.openAppDetail({
     <th>apptype</th>
     <th>应用类型: 0：原生应用；1：ExMobi应用；2：html5应用</th>
   </tr>
-  <tr>
-    <th>res.errMsg</th>
-    <th>错误提示。</th>
-  </tr>
 </table>
 
 ### 返回说明：
@@ -55,7 +51,7 @@ mplus.openAppDetail({
 ```JavaScript
 mplus.openWorktableUI({
     success: function (res) {
-    	// 成功回调
+    	
     },
     fail: function (res) {
         alert(res.errMsg);
