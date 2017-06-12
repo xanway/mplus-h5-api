@@ -28,19 +28,15 @@ mplus.saveToCloudDisk({
   </tr>
   <tr>
     <th>documentids</th>
-    <th>文件id列表，多个id间以”,”分割。</th>
+    <th>文件id列表，多个id间以”,”分割</th>
   </tr>
   <tr>
     <th>appid</th>
-    <th>h5应用id。</th>
+    <th>h5应用id</th>
   </tr>
   <tr>
     <th>appname</th>
-    <th>h5应用名。</th>
-  </tr>
-  <tr>
-    <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>h5应用名</th>
   </tr>
 </table>
 
@@ -53,7 +49,7 @@ mplus.saveToCloudDisk({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 

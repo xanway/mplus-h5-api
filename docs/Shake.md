@@ -9,7 +9,7 @@
 
 mplus.watchShake({
     success: function (res) {
-        //成功回调，摇一摇监听服务自动清除，如想继续使用，请重新开启监听。
+     
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -26,7 +26,7 @@ mplus.watchShake({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -36,7 +36,7 @@ mplus.watchShake({
 
 mplus.clearShake({
     success: function (res) {
-        //成功回调
+        
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -53,6 +53,6 @@ mplus.clearShake({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>

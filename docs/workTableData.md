@@ -7,7 +7,6 @@
 mplus.getInstalledAppList({
     apptype: '',
     success: function (res) { 
-           // 发送成功回调
         var installedAppArr = res.installedAppArr; 
         for(int i=0;i< installedAppArr.length;i++)
         {
@@ -50,7 +49,7 @@ mplus.getInstalledAppList({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 

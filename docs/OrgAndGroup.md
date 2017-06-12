@@ -27,7 +27,7 @@ mplus.getOrgName({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ mplus.getOrgGroups({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -142,7 +142,7 @@ mplus.getOrgMembers({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -215,7 +215,7 @@ mplus.getOrgGroupsAndMembers({
   </tr>
   <tr>
     <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -235,7 +235,7 @@ mplus.getOrgGroupsAndMembers({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -325,11 +325,11 @@ mplus.searchOrgMembers({
   </tr>
   <tr>
     <th>res.orgMembers</th>
-    <th>返回部门成员数组。</th>
+    <th>返回部门成员数组</th>
   </tr>
   <tr>
     <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -341,11 +341,11 @@ mplus.searchOrgMembers({
   </tr>
   <tr>
     <th>orgMembers</th>
-    <th>返回部门成员数组。</th>
+    <th>返回部门成员数组</th>
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -437,7 +437,7 @@ mplus.getMemberDetails({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -536,7 +536,7 @@ mplus.getUserGroupMembers({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -586,7 +586,7 @@ mplus.getUserGroupId({
   </tr>
   <tr>
     <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -618,7 +618,7 @@ mplus.getUserGroupFullId({
   </tr>
   <tr>
     <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -648,6 +648,6 @@ mplus.getUserName({
   </tr>
   <tr>
     <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>

@@ -30,7 +30,7 @@ mplus.uploadImage({
   </tr>
   <tr>
     <th>res.errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -47,6 +47,6 @@ mplus.uploadImage({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>

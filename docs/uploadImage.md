@@ -55,6 +55,6 @@ mplus.uploadImage({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>上传失败的错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>

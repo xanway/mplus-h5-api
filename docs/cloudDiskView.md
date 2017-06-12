@@ -40,7 +40,7 @@ mplus.selectDocsFromCloudDisk({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
 
@@ -116,10 +116,6 @@ mplus.filePreviewFromCloudDisk({
     <th>documentname</th>
     <th>文件名</th>
   </tr>
-  <tr>
-    <th>res.errMsg</th>
-    <th>错误提示。</th>
-  </tr>
 </table>
 
 ### 返回说明：
@@ -131,6 +127,6 @@ mplus.filePreviewFromCloudDisk({
   </tr>
   <tr>
     <th>errMsg</th>
-    <th>错误提示。</th>
+    <th>错误提示</th>
   </tr>
 </table>
