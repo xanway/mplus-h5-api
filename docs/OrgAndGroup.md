@@ -172,20 +172,20 @@ mplus.getOrgMembers({
 ```Javascript
 
 mplus.getOrgGroupsAndMembers({
-    groupId:'',//指定的群组id，根节点为-1
+    groupId:'',
     success: function (res) {
     	var orgGroupArr = res.orgGroups; 
         var orgMemberArr = res.orgMembers; 
     	for(int i=0;i< orgGroupArr.length;i++)
     	{
-            var id = orgGroupArr[i].id; // 返回子部门id
-            var name = orgGroupArr[i].name; // 返回子部门名称
+            var id = orgGroupArr[i].id;
+            var name = orgGroupArr[i].name;
     	}
     	for(int i=0;i<orgMemberArr.length;i++)
     	{
-            var id = orgMemberArr[i].id; // 返回部门直属成员名id
-            var loginId= orgMemberArr[i].loginId; //返回loginId 
-            var name = orgMemberArr[i].name; // 返回部门直属成员昵称
+            var id = orgMemberArr[i].id;
+            var loginId= orgMemberArr[i].loginId;
+            var name = orgMemberArr[i].name;
 	} 
     },
 	fail: function (res) {

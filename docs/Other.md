@@ -7,7 +7,7 @@
 mplus.openThirdApp({
     appid: '',
     success: function (res) {
-       // 成功回调
+       
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -46,7 +46,7 @@ mplus.openThirdApp({
 ```JavaScript
 mplus.getCurrentLanguage({
     success: function (res) {
-       // 成功回调
+       
        var language = res.language;
     },
     fail: function (res) {

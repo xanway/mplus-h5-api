@@ -7,7 +7,7 @@
 
 mplus.getImType({
     success: function (res) { 
-        // 发送成功回调
+        
         var imType = res.imType;
     },
     fail: function (res) {
@@ -41,7 +41,7 @@ mplus.sendMessage({
     imaccount: '', 
     message: '',
     success: function (res) { 
-    // 发送成功回调
+    
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -88,7 +88,7 @@ mplus.sendChatMessage({
     imaccount: '', 
     message: '',
     success: function (res) {
-     // 发送成功回调
+     
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -135,7 +135,7 @@ mplus.sendGroupMessage({
     imaccount: '', 
     message: '',
     success: function (res) {
-     // 发送成功回调
+     
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -181,7 +181,7 @@ mplus.showMessage({
     imaccount: '', 
     name: '',
     success: function (res) {
-     // 发送成功回调
+    
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -227,7 +227,7 @@ mplus.showChatMessage({
     imaccount: '', 
     name: '',
     success: function (res) {
-    // 发送成功回调
+
     },
     fail: function (res) {
         alert(res.errMsg);
@@ -274,7 +274,7 @@ mplus.showGroupMessage({
     imaccount: '',
     name: '',
     success: function (res) {
-    // 发送成功回调
+
     },
     fail: function (res) {
         alert(res.errMsg);
