@@ -265,7 +265,7 @@ mplus.showChatMessage({
   </tr>
 </table>
 
-<h2 id="cid_0">获取IM类型</h2>
+<h2 id="cid_0">显示群组聊天界面</h2>
 
 ```JavaScript
 

@@ -93,6 +93,15 @@ mplus.backPage();
 
 ```
 
+<h2 id="cid_0">关闭当前页面（内嵌页面无效）</h2>
+
+```JavaScript
+
+mplus.closeWindow();
+
+```
+
+
 <h2 id="cid_0">批量隐藏功能按钮接口</h2>
 
 ```JavaScript
