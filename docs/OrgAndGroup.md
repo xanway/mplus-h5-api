@@ -451,7 +451,7 @@ success: function (res) {
     for(int i=0;i< userGroupArr.length;i++)
 	{
 	    var id = userGroupArr[i].id;
-	    var name= userGroupArr[i].name;//返回群组名称
+	    var name= userGroupArr[i].name;
 	} 
 },
 fail: function (res) {
