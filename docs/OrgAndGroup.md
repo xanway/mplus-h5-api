@@ -476,7 +476,7 @@ fail: function (res) {
   </tr>
 </table>
 
-###### orgMembers说明：
+###### userGroupArr说明：
 <table>
   <tr>
     <th>参数</th>
