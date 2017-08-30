@@ -12,7 +12,7 @@ mplus.shareWorkCircleUI({
     appid: '',
     imgUrl: '',
     link: '',
-    terminalType:'',
+    terminalType: '',
     success: function (res) {
         
     },
