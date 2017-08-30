@@ -12,6 +12,7 @@ mplus.shareWorkCircleUI({
     appid: '',
     imgUrl: '',
     link: '',
+    terminalType:'',
     success: function (res) {
         
     },
@@ -52,6 +53,10 @@ mplus.shareWorkCircleUI({
     <tr>
     <th>link</th>
     <th>分享链接，见link链接格式</th>
+  </tr>
+  <tr>
+    <th>terminalType</th>
+    <th>(5.3.0版本支持) 可不填，默认1。消息适用平台，0 全部 1，移动端 2，PC端</th>
   </tr>
 </table>
 
