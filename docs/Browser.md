@@ -84,7 +84,7 @@ mplus.setDebug({
 
 <h2 id="cid_0">清除webview浏览器控件缓存(5.0.5)</h2>
 
-注：此接口不能清楚cookie数据，只适合开发时调用，不要在发布应用中使用
+注：此接口会清除cookie数据，只适合开发时调用，不建议在发布应用中使用
 
 ```JavaScript
 
