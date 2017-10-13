@@ -2,7 +2,7 @@
 
 ---
 ```JavaScript
-mplus.uploadImage({
+mplus.downloadImage({
     serverId: '', 
     success: function (res) {
         var localId = res.downloadUrl; 
