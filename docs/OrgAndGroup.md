@@ -394,6 +394,7 @@ id可由mplus.getOrgMembers中id获取
 ```JavaScript
 mplus.getMemberDetails({
     memberId: '',
+    //loginid: '',
     success: function (res) {
     	var phones = res.phones;
     	var imAccount = res.imAccount;
@@ -413,7 +414,9 @@ mplus.getMemberDetails({
   </tr>
   <tr>
     <th>memberId</th>
-    <th>成员id</th>
+    <th>成员id（与loginid只能选择一个参数）</th>
+    <th>loginid</th>
+    <th>登录id（与memberid只能选择一个参数）</th>
   </tr>
 </table>
 
