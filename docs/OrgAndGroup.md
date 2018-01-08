@@ -415,6 +415,8 @@ mplus.getMemberDetails({
   <tr>
     <th>memberId</th>
     <th>成员id（与loginid只能选择一个参数）</th>
+  </tr>
+  <tr>
     <th>loginid</th>
     <th>登录id（与memberid只能选择一个参数）</th>
   </tr>
