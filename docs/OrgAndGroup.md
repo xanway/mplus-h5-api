@@ -678,10 +678,10 @@ mplus.getOrgCustomFields({
         {
             var fieldname = orgCustomArrs[i].fieldname; 
             var fieldcode = orgCustomArrs[i].fieldcode; 
-            var fieldattr= orgCustomArrs[i].fieldattr; //0:其他，1：手机，2：固定电话，3：邮箱
-            var fieldpro= orgCustomArrs[i].fieldpro; //0：普通属性，1：权限属性
-            var valuetype= orgCustomArrs[i].valuetype; //0:输入框，1：选择
-            var defaultvalue= orgCustomArrs[i].defaultvalue; //可能为选择的数据，例如：[男、女]
+            var fieldattr= orgCustomArrs[i].fieldattr;
+            var fieldpro= orgCustomArrs[i].fieldpro;
+            var valuetype= orgCustomArrs[i].valuetype;
+            var defaultvalue= orgCustomArrs[i].defaultvalue; 
         }
     },
     fail: function (res) {
