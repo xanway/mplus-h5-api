@@ -282,7 +282,9 @@ mplus.getOrgGroupsAndMembers({
 
 ```JavaScript
 mplus.searchOrgMembers({
-    condition: '', 
+    condition: '',
+    fieldcode: '',
+    fieldvalue: '',
     limit: '',
     from: '', 
     success: function (res) {
@@ -314,6 +316,14 @@ mplus.searchOrgMembers({
   <tr>
     <th>condition</th>
     <th>模糊查询条件</th>
+  </tr>
+  <tr>
+    <th>fieldcode</th>
+    <th>自定义字段的编码，数据从getOrgCustomFields中获取</th>
+  </tr>
+  <tr>
+    <th>fieldvalue</th>
+    <th>自定义字段key对应的数据，需要查询的条件</th>
   </tr>
   <tr>
     <th>limit</th>
