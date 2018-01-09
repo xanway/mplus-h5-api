@@ -666,3 +666,74 @@ mplus.getUserName({
     <th>错误提示</th>
   </tr>
 </table>
+
+<h2 id="cid_10">获取当前机构个人信息扩展字段</h2>
+
+
+```JavaScript
+mplus.getOrgCustomFields({
+    success: function (res) {
+        var orgCustomArrs= res.orgCustomFields;
+        for(int i=0;i<orgCustomArrs.length;i++)
+        {
+            var fieldname = orgCustomArrs[i].fieldname; 
+            var fieldcode = orgCustomArrs[i].fieldcode; 
+            var fieldattr= orgCustomArrs[i].fieldattr; //0:其他，1：手机，2：固定电话，3：邮箱
+            var fieldpro= orgCustomArrs[i].fieldpro; //0：普通属性，1：权限属性
+            var valuetype= orgCustomArrs[i].valuetype; //0:输入框，1：选择
+            var defaultvalue= orgCustomArrs[i].defaultvalue; //可能为选择的数据，例如：[男、女]
+        }
+    },
+    fail: function (res) {
+        alert(res.errMsg);
+    }
+});
+
+```
+### 返回说明：
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>orgCustomFields</th>
+    <th>当前机构扩展字段对象数组</th>
+  </tr>
+  <tr>
+    <th>res.errMsg</th>
+    <th>错误提示</th>
+  </tr>
+</table>
+
+###### userGroupMembers说明：
+<table>
+  <tr>
+    <th>参数</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <th>fieldname</th>
+    <th>字段名称</th>
+  </tr>
+  <tr>
+    <th>fieldcode</th>
+    <th>字段编码</th>
+  </tr>
+    <tr>
+    <th>fieldattr</th>
+    <th>0:其他，1：手机，2：固定电话，3：邮箱</th>
+  </tr>
+  <tr>
+    <th>fieldpro</th>
+    <th>0：普通属性，1：权限属性</th>
+  </tr>
+  <tr>
+    <th>valuetype</th>
+    <th>0:输入框，1：选择</th>
+  </tr>
+    <tr>
+    <th>defaultvalue</th>
+    <th>可能为选择的数据，例如：[男、女]</th>
+  </tr>
+</table>
