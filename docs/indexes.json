@@ -156,6 +156,14 @@
                   }
                   ]
      },
+	 {
+     "group": "状态栏设置",
+     "contains": [
+				{
+                  "subject": "状态栏样式设置",
+                  "mdlink": "StatusBarStyleSetting"
+                  }
+     },
      {
      "group": "IM聊天",
      "contains": [
