@@ -25,7 +25,7 @@ mplus.getImType({
   </tr>
   <tr>
     <th>imType</th>
-    <th>0：烽火IM；1：容联云</th>
+    <th>0：先维IM；1：容联云</th>
   </tr>
   <tr>
     <th>errMsg</th>
@@ -82,7 +82,7 @@ mplus.sendMessage({
 
 <h2 id="cid_0">发送消息给用户</h2>
 
-烽火IM和容联云通用
+先维IM和容联云通用
 ```JavaScript
 mplus.sendChatMessage({
     imaccount: '', 
@@ -129,7 +129,7 @@ mplus.sendChatMessage({
 
 <h2 id="cid_0">发送消息给群组</h2>
 
-烽火IM和容联云通用
+先维IM和容联云通用
 ```JavaScript
 mplus.sendGroupMessage({
     imaccount: '', 
@@ -221,7 +221,7 @@ mplus.showMessage({
 
 <h2 id="cid_0">显示单个聊天界面</h2>
 
-烽火IM和容联云通用
+先维IM和容联云通用
 ```JavaScript
 mplus.showChatMessage({
     imaccount: '', 
@@ -269,7 +269,7 @@ mplus.showChatMessage({
 
 ```JavaScript
 
-//烽火IM和容联云通用
+//先维IM和容联云通用
 mplus.showGroupMessage({
     imaccount: '',
     name: '',
